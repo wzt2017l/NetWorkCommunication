@@ -4,3 +4,9 @@
 
 /.vs
 /NetWorkCommunication/.vs/NetWorkCommunication/v16
+/NetWorkCommunication/WcfConsoleApp/bin/Debug
+/NetWorkCommunication/WcfConsoleApp/obj
+/NetWorkCommunication/.vs/NetWorkCommunication/config
+/NetWorkCommunication/WcfServiceDemo1/bin
+/NetWorkCommunication/WcfServiceDemo1/obj
+/NetWorkCommunication/WcfServiceDemo1/Properties
