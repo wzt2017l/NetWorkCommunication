@@ -13,7 +13,7 @@ namespace WcfMessage
     {
         static void Main(string[] args)
         {
-            Message message = Message.CreateMessage(MessageVersion.Soap12,"test-action","你好，这是一条soap消息。");
+            Message message = Message.CreateMessage(MessageVersion.Soap12,"test-action","你好，这是一条soap消息。");//创建消息
             Console.WriteLine(message);
             MessageHeader header = MessageHeader.CreateHeader("ItemNumber", "app-test", 11);
             message.Headers.Add(header);
