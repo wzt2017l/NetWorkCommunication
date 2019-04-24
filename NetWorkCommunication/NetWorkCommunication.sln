@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMessage", "WcfMessage\Wc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo2", "WcfServiceDemo2\WcfServiceDemo2.csproj", "{9404D648-D2CD-442A-A818-FF19686C2467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelConsoleApp", "ChannelConsoleApp\ChannelConsoleApp.csproj", "{5268B3FD-BD7B-4572-8955-5BA93FD19FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryConsoleApp", "FactoryConsoleApp\FactoryConsoleApp.csproj", "{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{9404D648-D2CD-442A-A818-FF19686C2467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9404D648-D2CD-442A-A818-FF19686C2467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9404D648-D2CD-442A-A818-FF19686C2467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5268B3FD-BD7B-4572-8955-5BA93FD19FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5268B3FD-BD7B-4572-8955-5BA93FD19FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5268B3FD-BD7B-4572-8955-5BA93FD19FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5268B3FD-BD7B-4572-8955-5BA93FD19FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
