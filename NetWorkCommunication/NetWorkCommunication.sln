@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo1", "WcfServiceDemo1\WcfServiceDemo1.csproj", "{D8F3A6A0-8698-4676-819F-CA653B3ABA1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfConsoleApp", "WcfConsoleApp\WcfConsoleApp.csproj", "{6EA2C6C6-7EAB-4CEA-A9C1-0DB5F8A2568E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EA4CC75-2B71-45BF-A844-FA03201E68EF} = {0EA4CC75-2B71-45BF-A844-FA03201E68EF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMessage", "WcfMessage\WcfMessage.csproj", "{C620F338-1467-4998-8291-7B9D681E7A56}"
 EndProject
@@ -14,6 +17,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelConsoleApp", "ChannelConsoleApp\ChannelConsoleApp.csproj", "{5268B3FD-BD7B-4572-8955-5BA93FD19FAC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryConsoleApp", "FactoryConsoleApp\FactoryConsoleApp.csproj", "{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo3", "WcfServiceDemo3\WcfServiceDemo3.csproj", "{0EA4CC75-2B71-45BF-A844-FA03201E68EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +50,10 @@ Global
 		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
