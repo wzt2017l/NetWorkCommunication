@@ -12,7 +12,7 @@ namespace WcfConsoleApp
     {
         static void Main(string[] args)
         {
-          
+
         }
     }
    

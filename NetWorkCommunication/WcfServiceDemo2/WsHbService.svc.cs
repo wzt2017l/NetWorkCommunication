@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Threading;
 
 namespace WcfServiceDemo2
 {
@@ -29,6 +30,18 @@ namespace WcfServiceDemo2
         public string GetStudentValue()
         {
             return data.ToString();
+        }
+        public void InitInfo(string a)
+        {
+            try
+            {
+                Thread.Sleep(1000);
+                int b = Convert.ToInt32(a);
+            }
+            catch
+            {
+
+            }
         }
     }
 

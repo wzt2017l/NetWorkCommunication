@@ -19,6 +19,8 @@ namespace WcfServiceDemo2
         bool UpdateScore(int id,int newScore);
         [OperationContract]
         string GetStudentValue();
+        [OperationContract(IsOneWay = true)]
+        void InitInfo(string a);
 
     }
 }
