@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo1", "WcfServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfConsoleApp", "WcfConsoleApp\WcfConsoleApp.csproj", "{6EA2C6C6-7EAB-4CEA-A9C1-0DB5F8A2568E}"
 	ProjectSection(ProjectDependencies) = postProject
+		{E8D5E71C-51B0-4CBF-99A4-3587C9B0659E} = {E8D5E71C-51B0-4CBF-99A4-3587C9B0659E}
 		{9404D648-D2CD-442A-A818-FF19686C2467} = {9404D648-D2CD-442A-A818-FF19686C2467}
 		{0EA4CC75-2B71-45BF-A844-FA03201E68EF} = {0EA4CC75-2B71-45BF-A844-FA03201E68EF}
 	EndProjectSection
@@ -20,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryConsoleApp", "FactoryConsoleApp\FactoryConsoleApp.csproj", "{C68A55BD-1E89-47CA-BDF3-3BF557BAB56B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo3", "WcfServiceDemo3\WcfServiceDemo3.csproj", "{0EA4CC75-2B71-45BF-A844-FA03201E68EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo4", "WcfServiceDemo4\WcfServiceDemo4.csproj", "{E8D5E71C-51B0-4CBF-99A4-3587C9B0659E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +58,10 @@ Global
 		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA4CC75-2B71-45BF-A844-FA03201E68EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D5E71C-51B0-4CBF-99A4-3587C9B0659E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D5E71C-51B0-4CBF-99A4-3587C9B0659E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D5E71C-51B0-4CBF-99A4-3587C9B0659E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D5E71C-51B0-4CBF-99A4-3587C9B0659E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
