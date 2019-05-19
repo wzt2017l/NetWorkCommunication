@@ -24,7 +24,7 @@ namespace WcfServiceDemo4
         public void Login(string name)
         {
             callback.Receive("你好，"+name);
-            System.Threading.Thread.Sleep(1000);
+            //System.Threading.Thread.Sleep(1000);
             callback.Receive("你好，我是服务端"+SessionId);
         }
 
