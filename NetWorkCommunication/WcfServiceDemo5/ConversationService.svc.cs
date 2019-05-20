@@ -12,6 +12,10 @@ namespace WcfServiceDemo5
     public class ConversationService : IConversationService
     {
         int myValue;
+        public void Start()
+        {
+            Console.WriteLine("启动会话");
+        }
         public ConversationService()
         {
             myValue = 0;
@@ -30,6 +34,10 @@ namespace WcfServiceDemo5
         {
             PrintSessionID();
             return myValue;
+        }
+        public void End()
+        {
+            Console.WriteLine("结束会话");
         }
         private void PrintSessionID()
         {
