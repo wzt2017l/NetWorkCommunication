@@ -35,3 +35,6 @@
 /NetWorkCommunication/WcfService/obj/Debug
 /NetWorkCommunication/WcfServiceDemo5/bin
 /NetWorkCommunication/WcfServiceDemo5/obj/Debug
+/NetWorkCommunication/Zero.Service/obj/Debug
+/NetWorkCommunication/Zero.ServiceInterface/obj/Debug
+/NetWorkCommunication/Zero.WcfService/obj/Debug
