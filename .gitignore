@@ -38,3 +38,9 @@
 /NetWorkCommunication/Zero.Service/obj/Debug
 /NetWorkCommunication/Zero.ServiceInterface/obj/Debug
 /NetWorkCommunication/Zero.WcfService/obj/Debug
+/NetWorkCommunication/Zero.Client/bin/Debug
+/NetWorkCommunication/Zero.Client/obj/Debug
+/NetWorkCommunication/Zero.Host/bin/Debug
+/NetWorkCommunication/Zero.Host/obj/Debug
+/NetWorkCommunication/Zero.Service/bin
+/NetWorkCommunication/Zero.ServiceInterface/bin/Debug
