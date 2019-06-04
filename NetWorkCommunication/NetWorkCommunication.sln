@@ -37,6 +37,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zero.Host", "Zero.Host\Zero.Host.csproj", "{01F31C4F-B991-43CC-8DF7-6A385543DA7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zero.Client", "Zero.Client\Zero.Client.csproj", "{5C19285D-64BE-4A13-865F-0FDDB99C904D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{642C1960-AB33-4484-8DE8-4E09C3655ED3} = {642C1960-AB33-4484-8DE8-4E09C3655ED3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Zero.ServiceInterface
 {
-    [ServiceContract]
+    [ServiceContract(Namespace ="math",Name ="Math")]//Name远程引用映射的名字
    public  interface IMath
     {
-        [OperationContract]
+        [OperationContract(Action ="add",Name ="Add")]
         double Add(double a,double b);
         [OperationContract]
         double Sub(double a,double b);
