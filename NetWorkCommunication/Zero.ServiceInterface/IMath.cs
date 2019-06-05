@@ -10,7 +10,7 @@ namespace Zero.ServiceInterface
     [ServiceContract(Namespace ="math",Name ="Math")]//Name远程引用映射的名字
    public  interface IMath
     {
-        [OperationContract(Action ="add",Name ="Add")]
+        [OperationContract(Action ="add",Name ="Add",ReplyAction ="ADD")]
         double Add(double a,double b);
         [OperationContract]
         double Sub(double a,double b);
