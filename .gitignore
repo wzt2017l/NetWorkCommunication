@@ -46,3 +46,7 @@
 /NetWorkCommunication/Zero.ServiceInterface/bin/Debug
 /NetWorkCommunication/Zero.WcfMessage/bin/Debug
 /NetWorkCommunication/Zero.WcfMessage/obj/Debug
+/NetWorkCommunication/MSMQ.Host/bin/Debug
+/NetWorkCommunication/MSMQ.Host/obj/Debug
+/NetWorkCommunication/MSMQ.Service/bin
+/NetWorkCommunication/MSMQ.Service/obj/Debug
