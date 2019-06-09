@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a71ae8a4-4909-4dc9-929b-9329e9596aca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8933/Design_Time_Addresses/AirportService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="34747a11-f373-48e0-8dfc-f768756b1c8d" SourceId="1" SourceUrl="http://localhost:8933/Design_Time_Addresses/AirportService/?xsd=xsd1" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="84fc3c87-222b-401d-9906-e25b9a66cf21" SourceId="1" SourceUrl="http://localhost:8933/Design_Time_Addresses/AirportService/?wsdl=wsdl0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="7de92e09-d148-4170-9f32-40d7a3f632aa" SourceId="1" SourceUrl="http://localhost:8933/Design_Time_Addresses/AirportService/?disco" />
+    <MetadataFile FileName="AirportService.wsdl" MetadataType="Wsdl" ID="af791fdf-6ef6-48a0-b96b-67496178c455" SourceId="1" SourceUrl="http://localhost:8933/Design_Time_Addresses/AirportService/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="3f8652b7-7435-427c-a772-7aeb69fd4331" SourceId="1" SourceUrl="http://localhost:8933/Design_Time_Addresses/AirportService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
