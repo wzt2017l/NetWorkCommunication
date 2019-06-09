@@ -50,3 +50,5 @@
 /NetWorkCommunication/MSMQ.Host/obj/Debug
 /NetWorkCommunication/MSMQ.Service/bin
 /NetWorkCommunication/MSMQ.Service/obj/Debug
+/NetWorkCommunication/MSMQ.Client/bin/Debug
+/NetWorkCommunication/MSMQ.Client/obj/Debug

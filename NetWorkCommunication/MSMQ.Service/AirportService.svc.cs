@@ -26,8 +26,11 @@ namespace MSMQ.Service
     [DataContract(Namespace ="WcfMsmqExamples")]
     public class AirportMessage
     {
+        [DataMember]
         public string AirportId;
+        [DataMember]
         public DateTime ForecastTime;
+        [DataMember]
         public string ShortMessage;
         public string MessageId
         {
